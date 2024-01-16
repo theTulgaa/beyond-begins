@@ -1,0 +1,109 @@
+/* src/styles.css */
+
+:root {
+  background-color: teal;
+}
+button, input {
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+}
+/* ----- App component styling -----*/
+.outter-div div {
+  margin: 10px;
+}
+.rht-section {
+  display: flex;
+  align-items: center;
+}
+.mdl-section {
+  flex: 1;
+  display: flex;
+}
+.mdl-section button {
+  padding: 16px;
+}
+.my-form {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 0;
+}
+.search-bar {
+  flex: 1;
+  width: 0;
+  padding: 15px;
+  font-size: 15px;
+}
+.lft-section {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .header-title {
+    display: none;
+  }
+}
+/* ----- App component styling -----*/
+
+/* ----- UserInfo component styling -----*/
+.main-user {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 15px;
+}
+.user-img {
+  height: 250px;
+  border-radius: 125px;
+}
+.batman div {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.702);
+}
+.son div{
+  margin-left: 20px;
+}
+@media (max-width: 600px) {
+  .main-user {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+/* ----- UserInfo component styling -----*/
+
+
+/* ----- HistoryUser component styling -----*/
+
+.outter-his {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner-his {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background-color: brown;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.inner-his button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  align-items: center;
+}
+
+/* ----- HistoryUser component styling -----*/
